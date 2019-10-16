@@ -1,0 +1,26 @@
+taxonomies: false
+title: 'Default SEO'
+create_title: 'Default Title & Decriptions for Google and Facebook'
+hide: true
+sections:
+  main:
+    display: Main
+    fields:
+      seo_settings:
+        type: section
+        display: 'SEO Settings'
+        instructions: 'These default SEO settings will be used when not inputting SEO data on a post, page etc'
+      seo_title:
+        type: text
+        display: 'SEO Title'
+      seo_description:
+        type: textarea
+        display: 'SEO Description'
+        instructions: 'Best to keep description below 160 characters'
+      seo_image:
+        type: assets
+        display: 'SEO Image'
+        container: main
+        folder: img
+        restrict: false
+        max_files: 1

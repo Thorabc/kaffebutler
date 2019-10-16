@@ -1,0 +1,42 @@
+locales:
+  en:
+    url: /
+timezone: UTC
+date_format: 'F jS, Y'
+default_extension: md
+filesystems:
+  content:
+    driver: local
+    root: site/content
+  storage:
+    driver: local
+    root: site/storage
+  users:
+    driver: local
+    root: site/users
+  themes:
+    driver: local
+    root: public/themes
+    url: /themes
+app_key: nourdxQz6OxVzS7WQDq4DIgm8fVluPzA
+redactor:
+  -
+    name: Standard
+    settings:
+      buttons:
+        - formatting
+        - bold
+        - italic
+        - link
+        - unorderedlist
+        - orderedlist
+        - html
+  -
+    name: Basic
+    settings:
+      buttons:
+        - bold
+        - italic
+yaml_parser: symfony
+send_powered_by_header: true
+ensure_unique_ids: true

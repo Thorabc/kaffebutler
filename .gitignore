@@ -1,0 +1,12 @@
+.vscode
+.DS_Store
+.env
+node_modules/
+npm-debug.log
+bower_components/
+local/cache/*
+local/storage/*
+local/temp/*
+installer.php
+static/
+public/img/

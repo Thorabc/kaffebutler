@@ -1,0 +1,22 @@
+title: Contacts
+store: false
+honeypot: dontlikeyou
+fields:
+  name:
+    display: Name
+    validate: 'required|min:2'
+  email:
+    display: 'Email Address'
+    validate: required|email
+  comment:
+    display: Comment
+columns:
+  - name
+  - email
+  - comment
+email:
+  -
+    reply_to: '{{ email }}'
+    to: info@test.co.uk
+    from: info@test.co.uk
+    subject: 'Contact Form Submitted'

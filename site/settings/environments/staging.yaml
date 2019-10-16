@@ -1,0 +1,10 @@
+settings:
+  caching:
+    static_caching_enabled: false
+  debug:
+    debug: true
+    debug_bar: false
+  system:
+    locales:
+      en:
+        url: "http://statamic-boilerplate.test"

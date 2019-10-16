@@ -1,0 +1,47 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {{ nav from="/" include_home="true" max_depth="3" exclude_in_sitemap:isnt="true" no_index:isnt="true" }}
+       <url>
+        
+            <loc>{{ permalink }}</loc>
+        
+            <lastmod>{{ last_modified format="Y-m-d" }}</lastmod>
+        
+            <changefreq>monthly</changefreq>
+        
+            <priority>0.8</priority>
+    
+       </url>
+       {{ if children }}
+       {{ children }}
+        <url>
+        
+            <loc>{{ permalink }}</loc>
+        
+            <lastmod>{{ last_modified format="Y-m-d" }}</lastmod>
+        
+            <changefreq>{{ sitemap_frequency or "monthly" }}</changefreq>
+        
+            <priority>{{ priority or "0.8" }}</priority>
+        
+           </url>
+       {{ /children }}
+       {{ /if }}
+       {{ /nav }}
+       {{ collection:portfolio exclude_in_sitemap:isnt="true" no_index:isnt="true" }}
+       {{ if no_results }}
+       {{ else }}
+       
+       <url>
+            
+            <loc>{{ permalink }}</loc>
+    
+            <lastmod>{{ last_modified format="Y-m-d" }}</lastmod>
+    
+            <changefreq>monthly</changefreq>
+    
+            <priority>0.8</priority>
+            
+        </url>
+        {{ /if }}
+        {{ /collection:portfolio }}
+</urlset> 

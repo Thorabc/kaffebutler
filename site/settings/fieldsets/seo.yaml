@@ -1,0 +1,38 @@
+taxonomies: false
+title: SEO
+create_title: 'Title & Decriptions for Google and Facebook'
+hide: true
+fields:
+  seo_settings:
+    type: section
+    display: SEO Settings
+  seo_title:
+    type: text
+    display: SEO Title
+  seo_description:
+    type: textarea
+    display: SEO Description
+    instructions: Best to keep description below 160 characters
+  seo_image:
+    type: assets
+    display: SEO Image
+    container: main
+    folder: /
+    restrict: false
+    max_files: 1
+  show_advanced_seo:
+    type: revealer
+    display: Show Advanced SEO
+  no_index:
+    type: toggle
+    display: No Index
+    instructions: Toggle this on if you do not want Google to index this page
+    width: 50
+    show_when:
+      show_advanced_seo: true
+  exclude_in_sitemap:
+    type: toggle
+    display: Exclude in Sitemap
+    width: 50
+    show_when:
+      show_advanced_seo: true
