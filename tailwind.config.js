@@ -48,7 +48,10 @@ module.exports = {
     },
     fontFamily: {
       apercu: ["apercu", "sans-serif"],
-      "apercu-mono": ["apercu-mono", "sans-serif"]
+      "apercu-mono": ["apercu-mono", "sans-serif"],
+      Lato: ["Lato", "sans-serif"]
+
+
     },
     fontWeight: {
       light: 300,
@@ -81,7 +84,9 @@ module.exports = {
         800: "#232323"
       },
       green: {
+        200: "#F0EDE2",
         400: "#4BA171"
+        
       },
       orange: {
         400: "#D74E46"

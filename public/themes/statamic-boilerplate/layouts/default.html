@@ -4,27 +4,19 @@
 <!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    {{ partial:metas }}
     <link rel="stylesheet" href="{{ theme:css }}">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
-    {{ if environment == 'production' }}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=xxxxxx"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'xxxxxx', { 'anonymize_ip': true });
-    </script>
-    {{ /if }}
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    
 </head>
 
 <body class="font-main font-normal text-grey-dark leading-normal {{ segment_1 or "home" }}">
     <div id="app">
             {{ partial:header }}
-            {{ partial:ingress}}
-            {{ template_content }}
+            {{ partial:ingress }}
+            {{ partial:kaffekonsept }}
+            {{ partial:losninger }}
+            {{ partial:historie }}
+            {{ partial:komigang }}
             {{ partial:footer }}
     </div>
     
