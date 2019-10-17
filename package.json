@@ -4,7 +4,7 @@
     "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "2.0.1",
     "laravel-mix": "^4.0.14",
-    "tailwindcss": "^1.0.0"
+    "tailwindcss": "^1.1.2"
   },
   "scripts": {
     "dev": "SET NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",

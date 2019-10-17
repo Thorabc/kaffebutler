@@ -1,1 +1,35 @@
-<h1>Heio!</h1>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    {{ partial:metas }}
+    <link rel="stylesheet" href="{{ theme:css }}">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+    {{ if environment == 'production' }}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=xxxxxx"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'xxxxxx', { 'anonymize_ip': true });
+    </script>
+    {{ /if }}
+</head>
+
+<body class="font-main font-normal text-grey-dark leading-normal {{ segment_1 or "home" }}">
+    <div id="app">
+            {{ partial:header }}
+            {{ template_content }}
+            {{ partial:footer }}
+    </div>
+    
+    <script src="{{ theme:js }}"></script>
+
+    {{ partial:cookieconsent }}
+</body>
+
+</html>
