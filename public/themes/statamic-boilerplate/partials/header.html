@@ -1,9 +1,10 @@
-<header>
-  <div class="container mx-auto p-2 xl:px-0 relative">
-    <nav class="flex items-center justify-center lg:justify-between flex-wrap">
-      <a class="w-auto md:mb-6 lg:mb-0 text-center text-3xl" href="/"></a>
-      <div class="hidden md:block">{{ partial:menu }}</div>
-    </nav>
-    <button class="text-2xl text-purple md:hidden toggle-button absolute pin-l pin-t p-2">☰</button>
-  </div>
-</header>
+  <header class="bg-grey-light border-b border-grey">
+    <div class="container mx-auto py-4 relative flex justify-between items-center">
+      <div class="flex-1">
+        <a href="/"><img class="w-24 sm:w-auto align-middle" src="{{ theme:img src="logo.svg" }}"></a>
+      </div>
+      <nav class="sm:mr-4 md:mr-0">
+        {{ partial:menu }}
+      </nav>
+    </div>
+  </header>
