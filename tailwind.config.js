@@ -50,8 +50,6 @@ module.exports = {
       apercu: ["apercu", "sans-serif"],
       "apercu-mono": ["apercu-mono", "sans-serif"],
       Lato: ["Lato", "sans-serif"]
-
-
     },
     fontWeight: {
       light: 300,
@@ -65,10 +63,10 @@ module.exports = {
       lg: "1.0625rem", // 17px
       xl: "1.1875rem", // 19px
       xxl: "1.4375rem", // 23px
-      "2xl": "1.5625rem", //25px
-      "3xl": "2.125rem", // 34px
-      "4xl": "3rem", // 48px
-      "5xl": "3.75rem", // 60px
+      "2xl": "1.125rem", //18px
+      "3xl": "1.9375rem", // 31px
+      "4xl": "2.5625rem", // 42px
+      "5xl": "3.5rem", // 54px
       "6xl": "5.625rem", // 90px
     },
     colors: {
@@ -81,10 +79,11 @@ module.exports = {
         400: "rgba(255,255,255,0.6)",
         500: "#cccccc",
         600: "#797979",
-        800: "#232323"
+        800: "#232323",
       },
+
       green: {
-        200: "#F0EDE2",
+        200: "rgb(240, 237, 226)",
         400: "#4BA171"
         
       },

@@ -1,0 +1,39 @@
+sections:
+  main:
+    display: Main
+    fields:
+      main_image:
+        container: main
+        folder: /
+        restrict: false
+        type: assets
+        display: 'Main Image'
+      historie_text:
+        type: textarea
+        display: 'Historie Text'
+      ingress_text:
+        type: textarea
+        display: 'Ingress Text'
+      kaffekonsept_title:
+        type: text
+        display: 'Kaffekonsept Title'
+      kaffeogdrikkelosninger_title:
+        type: text
+        display: 'KaffeOgDrikkeløsninger Title'
+      løsninger_text:
+        type: textarea
+        display: 'Løsninger Text'
+      kaffemaskiner_title:
+        type: text
+        display: 'Kaffemaskiner Title'
+      kaffemaskiner_text:
+        type: textarea
+        display: 'Kaffemaskiner Text'
+      service_title:
+        type: text
+        display: 'Service Title'
+      service_text:
+        type: textarea
+        display: 'Service Text'
+taxonomies: true
+title: Hjem
