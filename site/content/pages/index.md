@@ -1,6 +1,9 @@
 ---
-main_image:
-  - /assets/img.jpg
+ingress_text: |
+  Ønsker dere å sette pris på de ansatte og kundene som er innom? 
+  Vi har et nøye utvalgt sortiment, som dekker alles behov, enten 
+  man er 5 eller 500 medarbeidere. Vi finner kaffeløsningen som 
+  passer for dere!
 historie_text: |
   Kaffebutler AS har vært en solid leverandør av kaffeløsninger til 
   bedriftsmarkedet i Telemark. Norengros Erik Tanche Nilssen AS 
@@ -9,14 +12,12 @@ historie_text: |
   kunder. Norengros ETN AS er en komplett leverandør av kaffemaskiner, 
   ingredienser og service tili bedriftsmarkedet i Telemark. Kaffebutler er 
   vårt konsept for kaffe- og drikkeløsninger
-ingress_text: |
-  Ønsker dere å sette pris på de ansatte og kundene som er innom? 
-  Vi har et nøye utvalgt sortiment, som dekker alles behov, enten 
-  man er 5 eller 500 medarbeidere. Vi finner kaffeløsningen som 
-  passer for dere!
 kaffekonsept_title: 'Kaffebutler - vårt nye  kaffekonsept'
 kaffeogdrikkelosninger_title: 'Kaffe og drikkeløsninger'
-løsninger_text: 'Våre kaffemaskiner bruker hele bønner med et nøye utvalgt kaffesortiment. Noen av maskinene tilbyr også te.'
+kaffe_text: |
+  Våre kaffemaskiner bruker hele bønner 
+  med et nøye utvalgt kaffesortiment. Noen 
+  av maskinene tilbyr også te.
 kaffemaskiner_title: Kaffemaskiner
 kaffemaskiner_text: |
   Våre kaffemaskiner fra Animo kan brukes 
@@ -28,6 +29,7 @@ service_text: |
   kartlegger vi din bedrifts behov 
   for kaffeløsning.
   Våre kaffemaskiner kan leveres med månedlig service.
+løsninger_text: 'Våre kaffemaskiner bruker hele bønner med et nøye utvalgt kaffesortiment. Noen av maskinene tilbyr også te.'
 kaffeogdrikkeløsninger_text: |
   Våre kaffemaskiner bruker hele bønner 
   med et nøye utvalgt kaffesortiment. Noen 

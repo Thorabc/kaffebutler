@@ -8,21 +8,21 @@ sections:
         restrict: false
         type: assets
         display: 'Main Image'
-      historie_text:
-        type: textarea
-        display: 'Historie Text'
       ingress_text:
         type: textarea
         display: 'Ingress Text'
+      historie_text:
+        type: textarea
+        display: 'Historie Text'
       kaffekonsept_title:
         type: text
         display: 'Kaffekonsept Title'
       kaffeogdrikkelosninger_title:
         type: text
         display: 'KaffeOgDrikkeløsninger Title'
-      løsninger_text:
+      kaffe_text:
         type: textarea
-        display: 'Løsninger Text'
+        display: 'Kaffe Text'
       kaffemaskiner_title:
         type: text
         display: 'Kaffemaskiner Title'
